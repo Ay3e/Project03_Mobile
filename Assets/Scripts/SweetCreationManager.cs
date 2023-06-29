@@ -100,6 +100,7 @@ public class SweetCreationManager : MonoBehaviour
     public void JellyBaseButton()
     {
         _selectedBase = baseSprites[1];
+        PlayerPrefs.SetInt("SelectedBase", 1);
     }
 
     //DISCOVER NEW BASES
@@ -135,6 +136,7 @@ public class SweetCreationManager : MonoBehaviour
             _selectedBase = baseSprites[6];
             recipeBookBaseSprites[6].GetComponent<SpriteRenderer>().color = Color.white;
         }
+       
     }
 
     //INGREDIENT BUTTONS
@@ -142,21 +144,31 @@ public class SweetCreationManager : MonoBehaviour
     {
         _pressedIngredient = ingredientSprites[0];
         InstantiatePressedIngredient();
-        _berryCount++;
+        if(_maxTopping > 0)
+        {
+            _berryCount++;
+        }
+
         _maxTopping--;
     }
     public void ChocoStickButton()
     {
         _pressedIngredient = ingredientSprites[1];
         InstantiatePressedIngredient();
-        _chocolateCount++;
+        if (_maxTopping > 0)
+        {
+            _chocolateCount++;
+        }
         _maxTopping--;
     }
     public void IceCreamButton()
     {
         _pressedIngredient = ingredientSprites[2];
         InstantiatePressedIngredient();
-        _creamCount++;
+        if (_maxTopping > 0)
+        {
+            _creamCount++;
+        } 
         _maxTopping--;
     }
     public void BlueberriesButton()
@@ -169,20 +181,30 @@ public class SweetCreationManager : MonoBehaviour
     {
         _pressedIngredient = ingredientSprites[4];
         InstantiatePressedIngredient();
-        _chocolateCount++;
+        if (_maxTopping > 0)
+        {
+            _chocolateCount++;
+        }
         _maxTopping--;
     }
     public void TripleBerriesButton()
     {
         _pressedIngredient = ingredientSprites[5];
         InstantiatePressedIngredient();
-        _berryCount++;
+        if (_maxTopping > 0)
+        {
+            _berryCount++;
+        }
         _maxTopping--;
     }
     public void SoyFlourButton()
     {
         _pressedIngredient = ingredientSprites[6];
         InstantiatePressedIngredient();
+        if (_maxTopping > 0)
+        {
+            _sugarCount++;
+        }
         _maxTopping--;
     }
 
