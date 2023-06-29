@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 208b420e359827142876d0a8acdfa068
+guid: 71d293ad5f910564cb98b4f447d54fab
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Salma Pro
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 208b420e359827142876d0a8acdfa068, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

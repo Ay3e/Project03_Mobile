@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SweetCreationManager : MonoBehaviour
@@ -14,9 +12,15 @@ public class SweetCreationManager : MonoBehaviour
     [SerializeField] private GameObject[] displayedIngredients;
 
     //other
+    [SerializeField] private GameObject IngredientTypes;
     private GameObject selectedBase;
     private GameObject pressedIngredient;
-    private int ingredientCounter;
+    //private int ingredientCounter;
+
+    private int creamCount;
+    private int berryCount;
+    private int sugarCount;
+    private int chocolateCount;
 
 
     private void Start()
@@ -24,6 +28,7 @@ public class SweetCreationManager : MonoBehaviour
         //sets base panel to always be active first
         basePanel.SetActive(true);
         ingredientsPanel.SetActive(false);
+        IngredientTypes.SetActive(false);
     }
 
     private void Update()
@@ -47,6 +52,13 @@ public class SweetCreationManager : MonoBehaviour
                     baseSprites[i].SetActive(false);
                 }
             }
+            for (int i = 0; i < ingredientSprites.Length; i++)
+            {
+                if (pressedIngredient == ingredientSprites[i])
+                {
+                    pressedIngredient.SetActive(true);
+                }
+            }
         }
     }
     //NEXT BUTTON
@@ -54,6 +66,7 @@ public class SweetCreationManager : MonoBehaviour
     {
         basePanel.SetActive(false);
         ingredientsPanel.SetActive(true);
+        IngredientTypes.SetActive(true);
     }
 
     //BASE BUTTONS
@@ -69,6 +82,55 @@ public class SweetCreationManager : MonoBehaviour
     //INGREDIENT BUTTONS
     public void BigBerryButton()
     {
+        pressedIngredient = ingredientSprites[0];
+        InstantiatePressedIngredient();
+        berryCount++;
+    }
+    public void ChocoStickButton()
+    {
+        pressedIngredient = ingredientSprites[1];
+        InstantiatePressedIngredient();
+        chocolateCount++;
+    }
+    public void IceCreamButton()
+    {
+        pressedIngredient = ingredientSprites[2];
+        InstantiatePressedIngredient();
+        creamCount++;
+    }
+    public void BlueberriesButton()
+    {
+        pressedIngredient = ingredientSprites[3];
+        InstantiatePressedIngredient();
+    }
+    public void ChocoLogoButton()
+    {
+        pressedIngredient = ingredientSprites[4];
+        InstantiatePressedIngredient();
+        chocolateCount++;
+    }
+    public void TripleBerriesButton()
+    {
+        pressedIngredient = ingredientSprites[5];
+        InstantiatePressedIngredient();
+        berryCount++;
+    }
+    public void SoyFlourButton()
+    {
+        pressedIngredient = ingredientSprites[6];
+        InstantiatePressedIngredient();
+    }
 
+    // Dupilcate the ingredient
+    private void InstantiatePressedIngredient()
+    {
+        if (pressedIngredient != null)
+        {
+            GameObject instantiatedIngredient = Instantiate(pressedIngredient, pressedIngredient.transform.position, pressedIngredient.transform.rotation);
+            // You can perform additional operations on the instantiated ingredient
+            Rigidbody instantiatedRigidbody = instantiatedIngredient.AddComponent<Rigidbody>();
+            instantiatedRigidbody.mass = 1f;
+            instantiatedRigidbody.drag = 0.5f;
+        }
     }
 }

@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHOCO STICK
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -355,8 +355,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -448,7 +448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &110777916
 Transform:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &181673373
 Transform:
   m_ObjectHideFlags: 0
@@ -1012,8 +1012,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SPONGE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1147,8 +1147,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHOC LOGO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1305,7 +1305,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 312153595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1052832307}
+        m_TargetAssemblyTypeName: SweetCreationManager, Assembly-CSharp
+        m_MethodName: ChocoLogoButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &312153595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1538,7 +1550,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 326431504}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1052832307}
+        m_TargetAssemblyTypeName: SweetCreationManager, Assembly-CSharp
+        m_MethodName: TripleBerriesButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &326431504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1721,8 +1745,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BIG BERRY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1940,8 +1964,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NEXT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2160,8 +2184,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: JELLY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2700,7 +2724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &930379287
 Transform:
   m_ObjectHideFlags: 0
@@ -2898,7 +2922,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1003112880}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1052832307}
+        m_TargetAssemblyTypeName: SweetCreationManager, Assembly-CSharp
+        m_MethodName: IceCreamButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1003112880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2997,8 +3033,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SOY FLOUR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3113,7 +3149,6 @@ MonoBehaviour:
   - {fileID: 2016458514}
   - {fileID: 181673372}
   - {fileID: 930379286}
-  - {fileID: 0}
   displayedIngredients: []
 --- !u!4 &1052832308
 Transform:
@@ -3148,7 +3183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1105915438
 Transform:
   m_ObjectHideFlags: 0
@@ -3552,7 +3587,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1181821529}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1052832307}
+        m_TargetAssemblyTypeName: SweetCreationManager, Assembly-CSharp
+        m_MethodName: BlueberriesButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1181821529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3866,7 +3913,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1286322465}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1052832307}
+        m_TargetAssemblyTypeName: SweetCreationManager, Assembly-CSharp
+        m_MethodName: ChocoStickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1286322465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3965,8 +4024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4058,7 +4117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1373036554
 Transform:
   m_ObjectHideFlags: 0
@@ -4466,8 +4525,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4601,8 +4660,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5075,8 +5134,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5477,7 +5536,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1896911547}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1052832307}
+        m_TargetAssemblyTypeName: SweetCreationManager, Assembly-CSharp
+        m_MethodName: BigBerryButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1896911547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5576,8 +5647,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ICE CREAM
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5711,8 +5782,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BLUEBERRIES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5938,7 +6009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2016458515
 Transform:
   m_ObjectHideFlags: 0
@@ -6040,7 +6111,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016458514}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6343,8 +6414,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: TRIPLE BERRIES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
+  m_sharedMaterial: {fileID: -8957774914151240489, guid: 1be7a701721090a48884ec05c5481c1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6478,8 +6549,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
-  m_sharedMaterial: {fileID: 4001700386514546773, guid: 92b31586d59be3d468012991e31f8c68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
